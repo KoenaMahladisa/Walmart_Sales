@@ -1,2 +1,8 @@
 # Walmart_Sales
 Prediction of Walmart sales
+Retail businesses operate in a highly dynamic environment where customer demand can change because of seasonal patterns, holidays, economic conditions, weather, and other external factors. For large retailers such as Walmart, accurately understanding and forecasting weekly sales is important for effective business planning, inventory management, resource allocation, and decision-making.
+
+This project analyses historical Walmart store sales data to identify patterns and factors associated with weekly sales and to develop machine learning models capable of predicting weekly sales. The dataset covers 45 Walmart stores and contains weekly observations from February 2010 to October 2012. In addition to weekly sales, the dataset includes information about holiday periods, temperature, fuel prices, Consumer Price Index (CPI), and unemployment rates.
+
+The project uses Exploratory Data Analysis (EDA) to investigate the distribution of weekly sales, identify trends and patterns, and examine relationships between sales and the external variables available in the dataset. The dataset contains 6,435 observations across 8 variables, including Store, Date, Weekly_Sales, Holiday_Flag, Temperature, Fuel_Price, CPI, and Unemployment.
+Following the exploratory analysis, the project applies several regression-based machine learning techniques to predict weekly sales. The models investigated include Random Forest Regressor, Gradient Boosting Regressor, and Ridge Regression. Their performance is evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² Score to determine which modelling approach provides the most suitable predictive performance.
